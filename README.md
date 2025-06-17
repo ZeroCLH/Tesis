@@ -1,2 +1,2 @@
-# Tesis
-Proyecto de tesis
+# prueba
+Este es un repositorio de prueba
