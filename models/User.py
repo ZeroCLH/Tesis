@@ -1,13 +1,13 @@
 from datetime import datetime
-
 class User:
 
-    def __init__(self, identification, name, password, rol, state):
-        self.identification = identification
-        self.name = name
+    def __init__(self, personID, username, password, status, rol):
+        self.personID = personID
+        self.username = username
         self.password = password
-        self.rol = rol
         self.state = state
+        self.rol = rol
+        
     
     def getUser(self):
         return self.__dict__
